@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_developer_manager,developer_manager,model_developer,base.group_system,1,1,1,1
+access_developer_user,developer_user,model_developer,base.group_user,1,1,1,0
+access_developer_public_user,developer_user,model_developer,base.group_public,0,0,0,0
+access_company_manager,company_manager,model_company,base.group_system,1,1,1,1
+access_company_user,company_user,model_company,base.group_user,1,1,1,0
+access_company_public_user,company_user,model_company,base.group_public,0,0,0,0
